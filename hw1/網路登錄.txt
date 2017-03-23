@@ -1,0 +1,19 @@
+https://dorm-water-2.cc.ntu.edu.tw/login_online_detail.php
+
+
+
+
+
+
+
+
+plt.plot(plot_x_1[1:], plot_y_1[1:], label="$one hours$", color="red", linewidth=2)
+#plt.plot(plot_x_7[1:], plot_y_7[1:], color="orange", label="$seven hours$", linewidth=2)
+plt.plot(plot_x_8[1:], plot_y_8[1:], label="$eight hours$", color="green", linewidth=2)
+#plt.plot(plot_x_9[1:], plot_y_9[1:], color="blue", label="$nine hours$", linewidth=2)
+plt.xlabel("Training Iteration (times)")
+plt.ylabel("Average Error on validation set")
+plt.title("Comparison using different amount of traindata")
+plt.legend()
+plt.grid()
+plt.show()
